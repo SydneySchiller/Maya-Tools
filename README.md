@@ -5,6 +5,6 @@ This tool scans through the existing items (Lights, Models, Joints, etc.) in the
 
 Lights &rarr; \_lgt \
 Polygonal Model &rarr; \_geo \
-Joints &rarr; \_jnt \
+Joints &rarr; \_jnt 
 
 _To Do: Add more suffixes_
