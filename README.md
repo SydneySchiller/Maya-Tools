@@ -5,11 +5,7 @@ This tool scans through the existing items (Lights, Models, Joints, etc.) in the
 
 Lights &rarr; \_lgt \
 Polygonal Model &rarr; \_geo \
-<<<<<<< HEAD
 Joints &rarr; \_jnt
-=======
-Joints &rarr; \_jnt 
->>>>>>> aa0a3f220687179db6f0a64dd4186b54e311d09e
 
 _To Do: Add more suffixes_
 
@@ -21,11 +17,11 @@ Both of these files have a _createGear_ method, which takes a _teeth_ variable a
 The files also contain a _changeTeeth_ method, which takes the same variables as before, but alters the existing specified gear.
 
 Below is a sample use of the tool.
-'''python
+```python
 import gearClassCreator
 reload(gearClassCreator)
 
 gear = gearClassCreator.Gear()
 gear.createGear()
 gear.changeTeeth(30, 0.75)
-'''
+```
