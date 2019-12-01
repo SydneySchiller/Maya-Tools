@@ -25,3 +25,17 @@ gear = gearClassCreator.Gear()
 gear.createGear()
 gear.changeTeeth(30, 0.75)
 ```
+
+### TweenerUI.py
+This tool helps animators to tween in between keyframes.\
+
+By entering the following code into the Maya scripting panel, a tweening window appears, which includes a slider and reset button. The slider, once adjusted, will set a new keyframe or set the existing keyframe at the specified percentage. The left side of the slider represents 0% and the right side represents 100%. \
+
+```python
+import tweenerUI
+reload(tweenerUI)
+
+tweenerUI.TweenWindow().show()
+```
+
+After adjusting the slider, you can hit the reset button, which resets the slider back to 50% (the middle of the slider) without setting a new keyframe.
