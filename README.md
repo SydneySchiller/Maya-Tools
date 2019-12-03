@@ -63,7 +63,7 @@ _libraryUI_ creates a window using PySide2 (can instead import Qt from Qt.py if 
 
 ![Controller Library UI](Pictures/ControllerLibrary.jpg)
 
-_controllerLibrary_ This is the base file that _libraryUI_ will import from. This file contains the save, find, and load methods used in the controller window.
+_controllerLibrary_ is the base file that _libraryUI_ will import from. This file contains the save, find, and load methods used in the controller window.
 
 Using the controller library:
 ```python
