@@ -61,6 +61,8 @@ This python library creates two python scripts: _controllerLibrary.py_ and _libr
 
 _libraryUI_ creates a window using PySide2 (can instead import Qt from Qt.py if it is available) which allows us to save and load controllers in the current scene.
 
+![Controller Library UI](Pictures/ControllerLibrary.jpg)
+
 _controllerLibrary_ This is the base file that _libraryUI_ will import from. This file contains the save, find, and load methods used in the controller window.
 
 Using the controller library:
@@ -70,10 +72,10 @@ reload(libraryUI)
 ui = libraryUI.showUI()
 ```
 
-_To Do:
+To Do:
 
 * If a controller has no icon, it currently looks out of place in our UI. You could have a default image that is displayed when there is no screenshot.
 
 * Controllers are simply loaded into the scene. It might be nice if they are positioned to any currently selected object in the scene. You could do this by constraining them after loading them, and then delete the constraint.
 
-* If I save a controller with the same name as an existing one, it just overwrites it. You could check if there is a controller with that name already and provide a warning to the user if there is._
+* If I save a controller with the same name as an existing one, it just overwrites it. You could check if there is a controller with that name already and provide a warning to the user if there is.
